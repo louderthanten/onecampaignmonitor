@@ -29,7 +29,7 @@ class OneCampaignMonitor_SubscribersService extends OneCampaignMonitor_BaseServi
             'Name' => $name,
             'CustomFields' => $this->parseCustomFields($customFields),
             'Resubscribe' => $resubscribe,
-            'ConsentToTrack' => 'Yes'
+            'ConsentToTrack' => 'Unchanged'
         ]);
 
         $error = null;
